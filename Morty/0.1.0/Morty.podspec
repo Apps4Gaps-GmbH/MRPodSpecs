@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.dependency 'AWSS3'
   s.dependency 'Firebase', '= 2.5.0'
 
-  s.source_files = "Morty/**/*.{swift}"
+  s.source_files = "Morty/**/*.{h,swift}"
 
  #s.resources = "Morty/**/*.{png,jpeg,jpg,storyboard,xib}"
 
